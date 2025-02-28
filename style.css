@@ -1,0 +1,89 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 201, 148);
+    height: 80px;
+    
+   
+   
+}
+.logo{
+    height: 40px;
+    width: 290px;
+    margin-left: 30px;
+}
+.nav-box-2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+/* Banner*/
+.banner{
+    display: flex;
+    height:715px ;
+    background-color: #FFFBF0 ;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-title{
+    font-size: 60px;
+
+}
+.banner-descrption{
+    font-size: 30px;
+    color: red;
+    padding-bottom: 40px;
+}
+.btn-primary{
+    background-color:#A4BC46 ;
+    color: aliceblue;
+    height: 60px;
+    width: 170px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.btn-primary:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+/*page 2*/
+.women , .men{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 550px; 
+    width: 370px;
+    background-color: rgb(216, 212, 173);
+    border-radius: 20px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.card-box-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:360px ;
+}
+.card-img{
+    height:293px;
+    width: 293px;
+    margin-left: 40px;
+}
+.price{
+    font-weight: bold;
+    font-size: 40px;
+    color: #A4BC46;
+}
