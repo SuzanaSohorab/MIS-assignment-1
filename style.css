@@ -149,7 +149,7 @@ a:hover{
 .Login{
     height: 395px;
     width: 1228.8px;
-    background-color: #C6E4D6;
+    background-color:  rgb(243, 201, 148);;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,7 +170,7 @@ a:hover{
 
 }
 .sign-in{
-    color: rgb(91, 10, 232);
+    color: rgb(83, 47, 4);
 }
 .sign-in:hover{
     opacity: 0.5;
